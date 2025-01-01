@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Content Summarizer and Highlight Extractor",
+  "description": "Summarize and highlight web content efficiently.",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage"],
+ //"background": {
+   // "service_worker": "background.js"
+ // },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}
+
