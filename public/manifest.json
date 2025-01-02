@@ -1,19 +1,19 @@
 {
-  "manifest_version": 3,
-  "name": "Content Summarizer and Highlight Extractor",
-  "description": "Summarize and highlight web content efficiently.",
+  "name": "AI Content Summarizer and Highlight Extractor",
   "version": "1.0",
-  "permissions": ["activeTab", "storage"],
- //"background": {
-   // "service_worker": "background.js"
- // },
+  "manifest_version": 3,
+  "description": "Summarize and extract highlights from web content.",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_popup": "index.html",
-    "default_icon": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
-    }
+    "default_popup": "sidebar.html",
+    "default_icon": "icons/icon.png"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
 }
-

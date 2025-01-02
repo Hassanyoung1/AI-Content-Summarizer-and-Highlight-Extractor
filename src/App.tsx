@@ -1,11 +1,9 @@
 import React from "react";
+import SidebarPage from "@pages/SidebarPage";
+import "@styles/tailwind.css";
 
 const App = () => {
-  return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold">Hello, Chrome Extension!</h1>
-    </div>
-  );
+  return <SidebarPage />;
 };
 
 export default App;
